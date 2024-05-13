@@ -1,0 +1,45 @@
+.bg{
+    background-color: #212529;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+input{
+    height: 50px;
+    
+    background-color: #767676;
+    color: #F8F9FA;
+    margin-top: 30px;
+    border: 1px solid #ffffff70;
+    
+}
+textarea{
+    background-color: #767676;
+    color: #F8F9FA;
+    border: 1px solid #ffffff70;
+}
+input::placeholder {
+    color: #F8F9FA; /* Desired placeholder color */
+    padding: 5px;
+}
+textarea::placeholder {
+    color: #F8F9FA; /* Desired placeholder color */
+    padding: 5px;
+}
+span{
+    margin-left: 5px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: #31D2F2 !important;
+  }
+  .icon{
+    height: 200px;
+  }
